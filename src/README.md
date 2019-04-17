@@ -1,3 +1,0 @@
-```
-Starting new project
-```
