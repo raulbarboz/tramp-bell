@@ -1,6 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// initial App
+// Login Component
+// Signup Component
+// Router
+// Redux
+// Firebase
+
 class App extends React.Component {
     render(){
         return(
