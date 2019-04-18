@@ -1,4 +1,5 @@
 var path = require('path');
+var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 require('dotenv').config({path:'.env'});
 
@@ -22,7 +23,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: 'src/index.html'
         }),
-        new HtmlWebpackPlugin.DefinePlugin({
+        new webpack.DefinePlugin({
             'process.env.API_KEY': JSON.stringify(process.env.API_KEY),
             'process.env.AUTH_DOMAIN': JSON.stringify(process.env.AUTH_DOMAIN),
             'process.env.DATABASE_URL': JSON.stringify(process.env.DATABASE_URL),
