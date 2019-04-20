@@ -16,7 +16,11 @@ module.exports = {
         ]
     },
     devServer: {
-        historyApiFallback: true
+        historyApiFallback: true,
+        allowedHosts: [
+            'localhost',
+            '.localhost'
+        ]
     },
     mode: 'development',
     plugins: [

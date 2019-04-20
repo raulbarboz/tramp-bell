@@ -3,7 +3,7 @@ import { firebase } from '../firebase/firebase';
 
 function Navbar() {
     return(
-        <nav className="navbar navbar-default">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="navbar-brand" href="#">
                 <img alt="" src=""/>
             </div>
